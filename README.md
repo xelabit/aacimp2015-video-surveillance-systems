@@ -1,7 +1,7 @@
 Harvesting information from video surveillance systems
 ================================
 ### Project Structure
-> An overview how how the project is structured
+> An overview how the project is structured
 
 ```
 Project Root/

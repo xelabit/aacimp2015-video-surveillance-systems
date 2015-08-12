@@ -20,10 +20,10 @@ Project Root/
 |-- README.md
 ```
 
-**data/**  
+**data/**
 This folder contains row data
 
-**inputs/**  
+**inputs/**
 Contains prepared data
 
 **outputs/**  

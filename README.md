@@ -1,25 +1,24 @@
 Harvesting information from video surveillance systems
 ================================
-# Project Structure
+### Project Structure
 > An overview how how the project is structured
 
 ```
 Project Root/
-?
-??? data/
-?   
-??? src/
-?   ??? preprocessing/
-?   ?
-?   ??? analysis/
-?
-??? inputs/
-?
-??? ouputs/
-?
-??? README.md
+|
+|-- data/
+|   
+|-- src/
+|   |-- preprocessing/
+|   |
+|   |-- analysis/
+|
+|-- inputs/
+|
+|-- ouputs/
+|
+|-- README.md
 ```
-
 
 **data/**  
 This folder contains row data

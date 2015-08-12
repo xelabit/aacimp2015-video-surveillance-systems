@@ -20,20 +20,20 @@ Project Root/
 |-- README.md
 ```
 
-**data/**
+**data/** </br>
 This folder contains row data
 
-**inputs/**
+**inputs/** </br>
 Contains prepared data
 
-**outputs/**  
+**outputs/** </br>
 Contains prediction results 
 
-**src/**
+**src/** </br>
 Contains sourse code of the project
 
-**src/preprocessing/**
+**src/preprocessing/** </br>
 Contains data preprocessing code
 
-**src/analysis/**
+**src/analysis/** </br>
 Contains data analysis code

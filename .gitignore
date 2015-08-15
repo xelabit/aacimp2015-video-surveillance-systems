@@ -1,0 +1,12 @@
+data/*
+..data_preprocessing.ipynb.syncdoc4.sage-history
+..gitignore.sage-chat
+..gitignore.sage-history
+.bash_profile
+.bashrc
+.data_preprocessing.ipynb.syncdoc4
+.forever/
+.ipynb_checkpoints/
+.sage/
+.sagemathcloud/
+.trash/

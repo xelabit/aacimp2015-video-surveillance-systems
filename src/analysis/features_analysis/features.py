@@ -23,10 +23,18 @@ def rebin(a, shape):
     sh = shape[0],a.shape[0]//shape[0],shape[1],a.shape[1]//shape[1]
     return a.reshape(sh).sum(-1).sum(1)
 
-def corners_bin(img, corn, bin_sizes):
+def corners_bin(corn, bin_sizes):
     corn = corn[:,0,:]
-    st_feat = np.zeros_like(img)
+    st_feat = np.zeros((240, 320), dtype=np.int) # BAD CODE
     for i in corn:
         st_feat[i[1],i[0]] = 1
     bins = rebin(st_feat, bin_sizes)    
     return bins.astype(int)    
+
+def list2array(Xlist):
+	Xarr = np.empty([10438, 100, 1, 2]) # BAD CODE
+
+	for i in xrange(len(Xlist[0])):
+		Xarr[i] = Xlist[i] 
+
+	return Xarr

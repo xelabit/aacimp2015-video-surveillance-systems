@@ -13,6 +13,14 @@ def traffic_load(path_to_npy_files):
 
     return Xtr, ytr, Xte, yte
 
+def traffic_info_load(path_to_npy_files):
+    """ Load serialized npy traffic data """
+    info_train = np.load(path_to_npy_files + '/X_train_videos.npy')
+    info_test = np.load(path_to_npy_files + '/X_test_videos.npy')
+
+    return info_train, info_test
+
+
 def traffic_hist(y):
     """ Show how classes are distributed """
     classes = ['light', 'medium', 'heavy']

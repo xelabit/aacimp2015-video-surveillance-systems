@@ -32,7 +32,7 @@ def corners_bin(corn, bin_sizes):
     return bins.astype(int)    
 
 def list2array(Xlist):
-	Xarr = np.empty([10438, 100, 1, 2]) # BAD CODE
+	Xarr = np.empty([2087, 100, 1, 2]) # BAD CODE
 
 	for i in xrange(len(Xlist[0])):
 		Xarr[i] = Xlist[i] 
